@@ -1,0 +1,35 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Gerados pelo app
+*_scenes.fcpxml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode / macOS app bundle
+*.app
+
+# Vídeos (geralmente grandes demais para o repositório)
+*.mov
+*.mp4
+*.m4v
+*.avi
+*.mkv
+
+# FCPXML de trabalho (só o template de exemplo deve ser commitado)
+*.fcpxmld/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
