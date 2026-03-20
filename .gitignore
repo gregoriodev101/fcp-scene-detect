@@ -4,8 +4,10 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.egg-info/
+*.spec
 dist/
 build/
+
 
 # Gerados pelo app
 *_scenes.fcpxml
