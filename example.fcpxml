@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE fcpxml>
 
+<!--
+    example.fcpxml
+    ──────────────
+    Template file to use with SceneDetect for Final Cut Pro.
+
+    How to generate your own:
+      1. Open your project in Final Cut Pro
+      2. File → Export XML…
+      3. Use the exported .fcpxml as the template in SceneDetect
+
+    This example uses 1080x1920 (vertical/Reels) at 29.97fps.
+    The app supports any resolution and frame rate — just use
+    your own exported template.
+-->
+
 <fcpxml version="1.14">
     <resources>
         <format id="r1" frameDuration="100/3000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)"/>
-        <asset id="r2" name="reels 2 - curso escola por dentro" uid="9CF04322FAD3447072057292D15DE6F3" start="0s" duration="2637635/30000s" hasVideo="1" format="r3" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
-            <media-rep kind="original-media" sig="9CF04322FAD3447072057292D15DE6F3" src="file:///Volumes/Projects/videomaker/Services/2026-03-19%20-%20thevazhome.fcpbundle/19-03-26/Original%20Media/reels%202%20-%20curso%20escola%20por%20dentro.mov">
-                <bookmark>Ym9vaxQFAAAAAAUQQAAAAE0rjGCxjntG8iDCDBkbB5oJZUikjOAysSFM1XefOXslAAAAAAAAAAAAAAAAAAAAABgEAAAEAAAAAwMAAAAYACgHAAAAAQEAAFZvbHVtZXMACAAAAAEBAABQcm9qZWN0cwoAAAABAQAAdmlkZW9tYWtlcgAACAAAAAEBAABTZXJ2aWNlcyEAAAABAQAAMjAyNi0wMy0xOSAtIHRoZXZhemhvbWUuZmNwYnVuZGxlAAAACAAAAAEBAAAxOS0wMy0yNg4AAAABAQAAT3JpZ2luYWwgTWVkaWEAACUAAAABAQAAcmVlbHMgMiAtIGN1cnNvIGVzY29sYSBwb3IgZGVudHJvLm1vdgAAACAAAAABBgAAEAAAACAAAAAwAAAARAAAAFQAAACAAAAAkAAAAKgAAAAIAAAABAMAAD5HAAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAaKlHAAAAAAAIAAAABAMAANReIwAAAAAACAAAAAQDAAAq3kwAAAAAAAgAAAAEAwAAPN5MAAAAAAAIAAAABAMAAEHeTAAAAAAACAAAAAQDAABF3kwAAAAAACAAAAABBgAAAAEAABABAAAgAQAAMAEAAEABAABQAQAAYAEAAHABAAAIAAAAAAQAAEHHtN2DJvszGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAZAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9Qcm9qZWN0cy8AAAAIAAAABAMAAADAJGvuAAAACAAAAAAEAABBxQUG3MsIiCQAAAABAQAAQTA2MDYzQkQtMzI3Ny00QTg4LUJFNUYtMjAxMDkwMTI2NUIyGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAARAAAAAQEAAC9Wb2x1bWVzL1Byb2plY3RzAAAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAAIcROQAAAAgAAAAABAAAQcenU3YAAAAkAAAAAQEAADU5MzkzNjNFLUI3NEEtNEZGQy1CRTY5LTgwRDExRTgyOTZBQxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAFAMAAAAAAAAFIAAAhAIAAAAAAAAQIAAAlAIAAAAAAAARIAAAyAIAAAAAAAASIAAAqAIAAAAAAAATIAAAuAIAAAAAAAAgIAAA9AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAkAAAAAQYAAIgDAACUAwAAoAMAAJQDAACUAwAAlAMAAJQDAACUAwAAlAMAAC8AAAABAQAATlNVUkxCb29rbWFya1F1YXJhbnRpbmVNb3VudGVkTmV0d29ya1ZvbHVtZXNLZXkAAAAAAAEFAAC0AAAA/v///wEAAAAgAwAADgAAAAQQAADYAAAAAAAAAAUQAACAAQAAAAAAABAQAAC4AQAAAAAAAEAQAACoAQAAAAAAAAAgAACsAwAAAAAAAAIgAABoAgAAAAAAAAUgAADYAQAAAAAAABAgAAAgAAAAAAAAABEgAAAcAgAAAAAAABIgAAD8AQAAAAAAABMgAAAMAgAAAAAAACAgAABIAgAAAAAAABDQAAAEAAAAAAAAANgDAIAQBAAAAAAAAA==</bookmark>
-            </media-rep>
+        <asset id="r2" name="your-video" uid="00000000000000000000000000000000" start="0s" duration="2637635/30000s" hasVideo="1" format="r3" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="00000000000000000000000000000000" src="file:///path/to/your/video.mov"/>
             <metadata>
                 <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
                 <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)"/>
@@ -19,38 +32,22 @@
                         <string>MPEG-4 AAC</string>
                     </array>
                 </md>
-                <md key="com.apple.proapps.mio.ingestDate" value="2026-03-19 14:12:45 -0300"/>
             </metadata>
         </asset>
         <format id="r3" frameDuration="1001/30000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)"/>
     </resources>
-    <library location="file:///Volumes/Projects/videomaker/Services/2026-03-19%20-%20thevazhome.fcpbundle/">
-        <event name="19-03-26" uid="0E85734F-AA2A-4BBB-B638-67897FC11B72">
-            <project name="cut-pro" uid="7586F84E-0606-4274-894B-A95BA60A4CDA" modDate="2026-03-19 14:13:50 -0300">
+    <library location="file:///path/to/your/library.fcpbundle/">
+        <event name="My Event" uid="00000000-0000-0000-0000-000000000001">
+            <project name="My Project" uid="00000000-0000-0000-0000-000000000002" modDate="2026-01-01 00:00:00 +0000">
                 <sequence format="r1" duration="263500/3000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
                     <spine>
-                        <asset-clip ref="r2" offset="0s" name="reels 2 - curso escola por dentro" duration="33800/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                        <asset-clip ref="r2" offset="0s" name="your-video" duration="33800/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
                             <conform-rate srcFrameRate="29.97"/>
                         </asset-clip>
-                        <asset-clip ref="r2" offset="33800/3000s" name="reels 2 - curso escola por dentro" start="169169/15000s" duration="34200/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                        <asset-clip ref="r2" offset="33800/3000s" name="your-video" start="169169/15000s" duration="34200/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
                             <conform-rate srcFrameRate="29.97"/>
                         </asset-clip>
-                        <asset-clip ref="r2" offset="68000/3000s" name="reels 2 - curso escola por dentro" start="17017/750s" duration="33900/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
-                            <conform-rate srcFrameRate="29.97"/>
-                        </asset-clip>
-                        <asset-clip ref="r2" offset="101900/3000s" name="reels 2 - curso escola por dentro" start="1020019/30000s" duration="39300/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
-                            <conform-rate srcFrameRate="29.97"/>
-                        </asset-clip>
-                        <asset-clip ref="r2" offset="141200/3000s" name="reels 2 - curso escola por dentro" start="353353/7500s" duration="29000/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
-                            <conform-rate srcFrameRate="29.97"/>
-                        </asset-clip>
-                        <asset-clip ref="r2" offset="170200/3000s" name="reels 2 - curso escola por dentro" start="851851/15000s" duration="28000/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
-                            <conform-rate srcFrameRate="29.97"/>
-                        </asset-clip>
-                        <asset-clip ref="r2" offset="198200/3000s" name="reels 2 - curso escola por dentro" start="991991/15000s" duration="28000/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
-                            <conform-rate srcFrameRate="29.97"/>
-                        </asset-clip>
-                        <asset-clip ref="r2" offset="226200/3000s" name="reels 2 - curso escola por dentro" start="377377/5000s" duration="37300/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                        <asset-clip ref="r2" offset="68000/3000s" name="your-video" start="17017/750s" duration="33900/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
                             <conform-rate srcFrameRate="29.97"/>
                         </asset-clip>
                     </spine>
