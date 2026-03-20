@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.14">
+    <resources>
+        <format id="r1" frameDuration="100/3000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)" />
+        <asset id="r2" name="file-cut" uid="B1F74D658C3DC280069CA080D317BD61" start="0s" duration="2637635/30000s" hasVideo="1" format="r3" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="B1F74D658C3DC280069CA080D317BD61" src="file:///Users/gregoriovideomaker/Dev-Apps/scene-detect/file-cut.mov">
+                </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0" />
+                <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)" />
+                <md key="com.apple.proapps.studio.cameraISO" value="0" />
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0" />
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>H.264</string>
+                        <string>MPEG-4 AAC</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2026-03-19 14:12:45 -0300" />
+            </metadata>
+        </asset>
+        <format id="r3" frameDuration="1001/30000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)" />
+    </resources>
+    <library location="file:///Volumes/Projects/videomaker/Services/2026-03-19%20-%20thevazhome.fcpbundle/">
+        <event name="19-03-26" uid="819A7E55-1757-4E20-9F13-38FCA5D2C26A">
+            <project name="cut-pro" uid="0F9B3FF6-73E1-4A3D-B5C5-B812D5C36563" modDate="2026-03-19 14:13:50 -0300">
+                <sequence format="r1" duration="263500/3000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <asset-clip ref="r2" offset="0s" name="file-cut — Cena 001" start="0s" duration="6300/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="6300/3000s" name="file-cut — Cena 002" start="63063/30000s" duration="3200/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="9500/3000s" name="file-cut — Cena 003" start="95095/30000s" duration="5200/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="14700/3000s" name="file-cut — Cena 004" start="147147/30000s" duration="6100/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="20800/3000s" name="file-cut — Cena 005" start="208208/30000s" duration="10400/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="31200/3000s" name="file-cut — Cena 006" start="312312/30000s" duration="4800/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="36000/3000s" name="file-cut — Cena 007" start="360360/30000s" duration="4700/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="40700/3000s" name="file-cut — Cena 008" start="407407/30000s" duration="4900/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="45600/3000s" name="file-cut — Cena 009" start="456456/30000s" duration="4900/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="50500/3000s" name="file-cut — Cena 010" start="505505/30000s" duration="3900/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="54400/3000s" name="file-cut — Cena 011" start="544544/30000s" duration="14700/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="69100/3000s" name="file-cut — Cena 012" start="691691/30000s" duration="5400/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="74500/3000s" name="file-cut — Cena 013" start="745745/30000s" duration="5500/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="80000/3000s" name="file-cut — Cena 014" start="800800/30000s" duration="4500/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="84500/3000s" name="file-cut — Cena 015" start="845845/30000s" duration="8100/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="92600/3000s" name="file-cut — Cena 016" start="926926/30000s" duration="6600/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="99200/3000s" name="file-cut — Cena 017" start="992992/30000s" duration="4200/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="103400/3000s" name="file-cut — Cena 018" start="1035034/30000s" duration="10300/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="113700/3000s" name="file-cut — Cena 019" start="1138137/30000s" duration="4800/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="118500/3000s" name="file-cut — Cena 020" start="1186185/30000s" duration="5100/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="123600/3000s" name="file-cut — Cena 021" start="1237236/30000s" duration="4200/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="127800/3000s" name="file-cut — Cena 022" start="1279278/30000s" duration="5200/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="133000/3000s" name="file-cut — Cena 023" start="1331330/30000s" duration="4800/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="137800/3000s" name="file-cut — Cena 024" start="1379378/30000s" duration="9600/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="147400/3000s" name="file-cut — Cena 025" start="1475474/30000s" duration="5000/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="152400/3000s" name="file-cut — Cena 026" start="1525524/30000s" duration="4700/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="157100/3000s" name="file-cut — Cena 027" start="1572571/30000s" duration="4100/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="161200/3000s" name="file-cut — Cena 028" start="1613612/30000s" duration="4700/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="165900/3000s" name="file-cut — Cena 029" start="1660659/30000s" duration="4900/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="170800/3000s" name="file-cut — Cena 030" start="1709708/30000s" duration="11600/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="182400/3000s" name="file-cut — Cena 031" start="1825824/30000s" duration="4600/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="187000/3000s" name="file-cut — Cena 032" start="1871870/30000s" duration="10400/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="197400/3000s" name="file-cut — Cena 033" start="1975974/30000s" duration="4500/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="201900/3000s" name="file-cut — Cena 034" start="2021019/30000s" duration="5100/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="207000/3000s" name="file-cut — Cena 035" start="2072070/30000s" duration="4600/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="211600/3000s" name="file-cut — Cena 036" start="2118116/30000s" duration="5000/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="216600/3000s" name="file-cut — Cena 037" start="2168166/30000s" duration="4300/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="220900/3000s" name="file-cut — Cena 038" start="2211209/30000s" duration="5200/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="226100/3000s" name="file-cut — Cena 039" start="2263261/30000s" duration="5000/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="231100/3000s" name="file-cut — Cena 040" start="2313311/30000s" duration="4900/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="236000/3000s" name="file-cut — Cena 041" start="2362360/30000s" duration="4700/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="240700/3000s" name="file-cut — Cena 042" start="2409407/30000s" duration="7300/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="248000/3000s" name="file-cut — Cena 043" start="2482480/30000s" duration="4900/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="252900/3000s" name="file-cut — Cena 044" start="2531529/30000s" duration="4900/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="257800/3000s" name="file-cut — Cena 045" start="2580578/30000s" duration="5000/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="262800/3000s" name="file-cut — Cena 046" start="2630628/30000s" duration="700/3000s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                            <conform-rate srcFrameRate="29.97" />
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project" />
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly" />
+            <match-media rule="is" type="videoWithAudio" />
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly" />
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills" />
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites" />
+        </smart-collection>
+        <smart-collection name="Missing Analysis" match="all">
+            <match-analysis-type rule="isMissing" value="any" />
+        </smart-collection>
+    </library>
+</fcpxml>
