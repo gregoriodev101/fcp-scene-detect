@@ -150,7 +150,7 @@ Você precisa empacotar como um .app com o PyInstaller. Ele transforma o script 
 ### Instala o PyInstaller
 python3 -m venv venv
 source venv/bin/activate
-python -m pip install "scenedetect[opencv]" customtkinter pyinstaller
+pyinstaller --windowed --name "SceneDetect" --onedir --icon=SceneDetect.icns SceneDetect.py
 
 ### Gera o .app
 pyinstaller --onefile --windowed --name "SceneDetect" SceneDetect.py
