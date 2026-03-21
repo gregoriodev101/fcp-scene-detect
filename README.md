@@ -144,6 +144,21 @@ Opções disponíveis:
 
 ---
 
+## Compilar App
+Você precisa empacotar como um .app com o PyInstaller. Ele transforma o script Python num bundle que o macOS reconhece como aplicativo nativo.
+
+### Instala o PyInstaller
+python3 -m venv venv
+source venv/bin/activate
+python -m pip install "scenedetect[opencv]" customtkinter pyinstaller
+
+### Gera o .app
+pyinstaller --onefile --windowed --name "SceneDetect" SceneDetect.py
+
+O --onedir gera uma pasta dist/SceneDetect.app que abre muito mais rápido porque não precisa descompactar a cada vez. O --onefile empacota tudo num único executável mas paga um custo de inicialização alto.
+
+---
+
 ## Licença
 
 MIT — livre para usar, modificar e distribuir.

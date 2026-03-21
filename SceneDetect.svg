@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680" height="680" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0A0A0F; }
+    .film-track { fill: #111122; }
+    .film-hole { fill: #0A0A0F; }
+    .lens-outer { fill: #0D1B3E; stroke: #1E3A7A; stroke-width: 2; }
+    .lens-mid { fill: #0A1428; stroke: #0A84FF; stroke-width: 1.5; }
+    .lens-inner { fill: #050A14; stroke: #0A84FF; stroke-width: 1; opacity: 0.8; }
+    .lens-core { fill: #0A84FF; opacity: 0.15; }
+    .lens-glint { fill: white; opacity: 0.6; }
+    .cut-line { stroke: #0A84FF; stroke-width: 3; stroke-linecap: round; }
+    .cut-line-dim { stroke: #0A84FF; stroke-width: 1.5; stroke-linecap: round; opacity: 0.35; }
+    .scene-rect { fill: none; stroke: #0A84FF; stroke-width: 1.5; opacity: 0.5; }
+    .scene-rect-active { fill: #0A84FF; opacity: 0.12; stroke: #0A84FF; stroke-width: 2; }
+    .glow-circle { fill: none; stroke: #0A84FF; stroke-width: 1; opacity: 0.1; }
+    .spark { fill: #0A84FF; }
+    .spark-dim { fill: #0A84FF; opacity: 0.4; }
+    .label { font-family: -apple-system, sans-serif; font-size: 52px; font-weight: 700; fill: white; letter-spacing: -1px; }
+    .label-sub { font-family: -apple-system, sans-serif; font-size: 20px; font-weight: 400; fill: #0A84FF; letter-spacing: 4px; }
+  </style>
+
+  <rect class="bg" width="680" height="680" rx="120"/>
+
+  <line x1="0" y1="340" x2="680" y2="340" stroke="#0A84FF" stroke-width="0.3" opacity="0.08"/>
+  <line x1="340" y1="0" x2="340" y2="680" stroke="#0A84FF" stroke-width="0.3" opacity="0.08"/>
+
+  <circle cx="340" cy="270" r="200" class="glow-circle"/>
+  <circle cx="340" cy="270" r="170" class="glow-circle" opacity="0.07"/>
+  <circle cx="340" cy="270" r="140" class="glow-circle" opacity="0.05"/>
+
+  <rect x="80" y="80" width="520" height="60" rx="8" class="film-track"/>
+  <rect x="80" y="80" width="520" height="60" rx="8" fill="none" stroke="#1E1E2E" stroke-width="1"/>
+  <rect x="100" y="93" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="148" y="93" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="196" y="93" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="244" y="93" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="292" y="93" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="340" y="93" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="388" y="93" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="436" y="93" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="484" y="93" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="532" y="93" width="28" height="34" rx="4" class="film-hole"/>
+
+  <rect x="80" y="540" width="520" height="60" rx="8" class="film-track"/>
+  <rect x="80" y="540" width="520" height="60" rx="8" fill="none" stroke="#1E1E2E" stroke-width="1"/>
+  <rect x="100" y="553" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="148" y="553" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="196" y="553" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="244" y="553" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="292" y="553" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="340" y="553" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="388" y="553" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="436" y="553" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="484" y="553" width="28" height="34" rx="4" class="film-hole"/>
+  <rect x="532" y="553" width="28" height="34" rx="4" class="film-hole"/>
+
+  <line x1="230" y1="80" x2="230" y2="140" class="cut-line-dim"/>
+  <line x1="420" y1="80" x2="420" y2="140" class="cut-line-dim"/>
+  <line x1="310" y1="540" x2="310" y2="600" class="cut-line-dim"/>
+  <line x1="480" y1="540" x2="480" y2="600" class="cut-line-dim"/>
+
+  <circle cx="340" cy="270" r="155" class="lens-outer"/>
+  <circle cx="340" cy="270" r="130" class="lens-mid"/>
+  <circle cx="340" cy="270" r="100" class="lens-inner"/>
+  <circle cx="340" cy="270" r="75" class="lens-core"/>
+
+  <circle cx="340" cy="270" r="115" fill="none" stroke="#0A84FF" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="340" cy="270" r="88" fill="none" stroke="#0A84FF" stroke-width="0.5" opacity="0.2"/>
+
+  <line x1="195" y1="270" x2="485" y2="270" class="cut-line" opacity="0.9"/>
+  <line x1="195" y1="240" x2="485" y2="240" class="cut-line-dim"/>
+  <line x1="195" y1="300" x2="485" y2="300" class="cut-line-dim"/>
+
+  <rect x="210" y="261" width="60" height="18" rx="3" class="scene-rect-active"/>
+  <rect x="285" y="261" width="45" height="18" rx="3" class="scene-rect"/>
+  <rect x="345" y="261" width="70" height="18" rx="3" class="scene-rect-active"/>
+  <rect x="430" y="261" width="40" height="18" rx="3" class="scene-rect"/>
+
+  <line x1="283" y1="253" x2="283" y2="287" stroke="#0A84FF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="343" y1="253" x2="343" y2="287" stroke="#0A84FF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="428" y1="253" x2="428" y2="287" stroke="#0A84FF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <ellipse cx="305" cy="228" rx="18" ry="10" class="lens-glint" transform="rotate(-30 305 228)"/>
+  <ellipse cx="295" cy="222" rx="6" ry="3.5" fill="white" opacity="0.4" transform="rotate(-30 295 222)"/>
+
+  <circle cx="283" cy="253" r="4" class="spark"/>
+  <circle cx="343" cy="253" r="4" class="spark"/>
+  <circle cx="428" cy="253" r="4" class="spark"/>
+  <circle cx="283" cy="287" r="3" class="spark-dim"/>
+  <circle cx="343" cy="287" r="3" class="spark-dim"/>
+  <circle cx="428" cy="287" r="3" class="spark-dim"/>
+
+  <text x="340" y="430" text-anchor="middle" class="label">SceneDetect</text>
+  <text x="340" y="462" text-anchor="middle" class="label-sub">FOR FINAL CUT PRO</text>
+</svg>
